@@ -1,0 +1,21 @@
+---
+layout: default
+title : Dev Blog Archive
+header : Dev Blog Archive
+group: navigation
+---
+
+{% for post in site.posts %}
+  	<span>
+  		<li>
+		    <a href="{{ post.url }}">
+				<h3>{{ post.title }}</h3>
+			</a>
+		</li>
+	</span>
+	<ul>
+    	<div>{{ post.content | truncatehtml | truncatewords: 60 }}	
+    	<p><a href="{{ post.url }}" style="padding-top: 1%; font-weight: 700;">Read more...</a></p>
+    	</div>
+    </ul>
+{% endfor %}

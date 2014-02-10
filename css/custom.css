@@ -1,0 +1,26 @@
+@media(max-width : 640px) {
+  #title{
+    text-align: center;
+  }
+
+}
+
+#nav {
+	border-top: 4px solid #d41d29;
+	position: fixed;
+	z-index: 10;
+}
+
+#bot{
+	border-bottom: 4px solid #d41d29;
+	position: bottom;
+}
+
+#wrapper {
+}
+
+.one-edge-shadow {
+  -webkit-box-shadow: 0 6px 6px -6px black;
+  -moz-box-shadow: 0 6px 6px -6px black;
+  box-shadow: 0 6px 6px -6px black;
+}

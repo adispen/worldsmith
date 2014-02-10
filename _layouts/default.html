@@ -1,0 +1,239 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="{{ site.url }}/css/custom.css" />
+    <link rel="stylesheet" href="{{ site.url }}/css/foundation.css" />
+    <script src="{{ site.url }}/js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  </head>
+  <body>
+
+  <!-- Nav -->
+  	<div class="fixed">
+	  <div data-magellan-expedition="fixed" id="nav" class="one-edge-shadow">
+	      <div class="nav-inner">
+	        <div class="row">
+	          <dl class="sub-nav">
+	            <dd id="title" class="small-12 medium-12 large-3 columns"><a href="{{ site.url }}/index.html" style="font-weight: 700;">Worldsmith</a></dd>
+	            <div id="anchors">
+	              <dd class="small-3 medium-3 large-2 columns"><a href="{{ site.url }}/index.html" id="1" >Home</a></dd>
+	              <dd class="small-3 medium-3 large-2 columns"><a href="{{ site.url }}/download.html" id="2" >Download</a></dd>
+	              <dd class="small-3 medium-3 large-2 columns"><a href="{{ site.url }}/archive.html" style="white-space: nowrap; overflow: hidden;" id="3" >Dev Blog</a></dd>
+	              <dd class="small-12 large-2 columns hidden"></dd>
+	            </div>
+	          </dl>
+	          </div>
+	        </div>
+      </div>
+    </div>
+
+  <!-- End -->
+
+  <!-- Nav Bar
+  <div class="fixed">
+	<nav class="top-bar" data-topbar>
+	  <ul class="title-area">
+	    <li class="name">
+	      <h1><a href="{{ site.url }}/index.html">{{ site.name }}</a></h1>
+	    </li>
+	  </ul>
+
+	  <section class="top-bar-section">
+	    <!-- Right Nav Section
+	    <ul class="right">
+	     <li><a href="{{ site.url }}/index.html">Home</a></li>
+         <li><a href="{{ site.url }}/download.html">Download</a></li>
+         <li><a href="{{ site.url }}/archive.html">Dev Blog</a></li>
+	    </ul>
+
+	    <!-- Left Nav Section 
+	  </section>
+	</nav> 
+  </div>
+
+  <!-- End Nav -->
+
+<!--
+<!-- Nav Bar
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="nav-bar right">
+       <ul class="button-group">
+         <li><a href="{{ site.url }}/index.html" class="button">Home</a></li>
+         <li><a href="{{ site.url }}/download.html" class="button">Download</a></li>
+         <li><a href="{{ site.url }}/archive.html" class="button">Dev Blog</a></li>
+        </ul>
+      </div>
+      <h1>{{ site.name }}</h1>
+      <hr />
+    </div>
+  </div>
+
+  <!-- End Nav
+  -->
+
+  <!-- Main Page Content and Sidebar -->
+<div id="wrapper">
+  <div class="row">
+    <!-- Main Blog Content -->
+    <div class="large-8 columns" role="content">
+
+  		{{ content }}
+  		<!--
+        <h3><a href="#">Blog Post Title</a></h3>
+        <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
+            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+          </div>
+          <div class="large-6 columns">
+            <img src="http://placehold.it/400x240&text=[img]" />
+          </div>
+        </div>
+
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+      </article>
+
+      <hr />
+
+      <article>
+
+        <h3><a href="#">Blog Post Title</a></h3>
+        <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
+            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+          </div>
+          <div class="large-6 columns">
+            <img src="http://placehold.it/400x240&text=[img]" />
+          </div>
+        </div>
+
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+      </article>
+	
+    -->
+    </div>
+    <!-- End Main Content -->
+
+
+    <!-- Sidebar -->
+
+    <aside class="large-4 columns">
+
+      <div class="panel">
+        <h4 id="getting_started">Getting Started</h4>
+
+			<ul>
+				<li><a href="/download.html">Download Worldsmith</a></li>
+
+				<li>Install and setup</li>
+
+				<li>Creating a new Addon</li>
+			</ul>
+
+			<h4 id="basic_usage">Basic Usage</h4>
+
+			<ul>
+				<li>Create a new Unit</li>
+
+				<li>Create a new Ability</li>
+
+				<li>Build a new map</li>
+			</ul>
+
+			<h4 id="publishing">Publishing</h4>
+
+			<ul>
+				<li>Stuff for publishing here</li>
+			</ul>
+
+			<h4 id="blog_posts">Blog Posts</h4>
+				<ul>
+					  
+					{% for post in site.posts %}
+					     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+					  
+				</ul>
+			</ul>
+      </div>
+
+    </aside>
+
+    <!-- End Sidebar -->
+  </div>
+</div>
+  <!-- End Main Content and Sidebar -->
+
+
+  <!-- Footer -->
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-9 columns" style="padding-bottom: 2%;">
+          <h7>Worldsmith is lovingly crafted by <a href="mailto:kylegar@kylegar.net?Subject=Worldsmith%20Feedback">RoyAwesome</a> and some amazing open source contributors.</h7>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="bot"></div>
+  <script>
+  	$(function() {
+        $('#wrapper').css('padding-top', $('.nav-inner').height()+40);
+      });
+
+      $(window).resize(function() {
+        var wi = $(window).width(); 
+        var he = $('.nav-inner').height();
+        $('#wrapper').css('padding-top', he+40);
+      });
+  </script>
+  <script type="text/javascript">
+  	var home = document.getElementById("1");
+  	var download = document.getElementById("2");
+  	var blog = document.getElementById("3")
+    if ( window.location.pathname ==  "/index.html" ) {
+   		home.setAttribute("style", "font-weight: 700; color: #d41d29;");;
+   	};
+   	if ( window.location.pathname ==  "/download.html" ) {
+   		download.setAttribute("style", "font-weight: 700; color: #d41d29;");;
+   	};
+   	if ( window.location.pathname ==  "/archive.html" ) {
+   		blog.setAttribute("style", "white-space: nowrap; overflow: hidden; font-weight: 700; color: #d41d29;");;
+   	};
+  </script>
+    <script src="{{ site.url }}/js/vendor/jquery.js"></script>
+    <script src="{{ site.url }}/js/foundation/foundation.js"></script>
+    <script>
+        var _gaq=[['_setAccount','UA-47464590-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    <script>
+      $(document).foundation();
+
+      var doc = document.documentElement;
+      doc.setAttribute('data-useragent', navigator.userAgent);
+    </script>
+  </body>
+</html>
