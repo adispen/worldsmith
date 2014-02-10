@@ -164,12 +164,12 @@
 				<li>Stuff for publishing here</li>
 			</ul>
 
-			<h4 id="blog_posts">Blog Posts</h4>
+			<h4 id="blog_posts"> Recent Blog Posts</h4>
 				<ul>
 					  
-					{% for post in site.posts %}
-					     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-					{% endfor %}
+					{% for post in site.posts limit:3 %}
+               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
 					  
 				</ul>
 			</ul>
